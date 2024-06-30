@@ -14,7 +14,9 @@ body {
     width: 350px;
     padding: 20px;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-right: 9px solid black;
+    border-bottom: 8px solid black;
 }
 
 .card-image {
@@ -79,4 +81,9 @@ p{
     font-weight: 800;
     font-style: normal;
     font-size: 14px;
+}
+
+h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
